@@ -1,0 +1,14 @@
+{
+  "name": "hospital-emergency-resource-coordination-system",
+  "version": "1.0.0",
+  "description": "Mayo Digital Solutions Hospital-to-Hospital Emergency Resource Coordination System",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["hospital", "emergency", "coordination", "mern", "healthcare"],
+  "author": "Mayo Digital Solutions",
+  "license": "UNLICENSED"
+}
