@@ -14,6 +14,7 @@ import emergencyRoutes from './routes/emergencyRoutes.js';
 import transferRoutes from './routes/transferRoutes.js';
 import auditRoutes from './routes/auditRoutes.js';
 import integrationRoutes from './routes/integrationRoutes.js';
+import commsRoutes from './routes/commsRoutes.js';
 
 dotenv.config();
 
